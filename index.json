@@ -1,0 +1,30 @@
+{
+    "title": "Kubernetes 入门课程",
+    "description": "Uses a two node Kubernetes cluster and performs user input verification in all steps",
+    "details": {
+        "steps": [
+            {
+                "title": "安装k8s",
+                "text": "step1/text.md",
+                "verify": "step1/verify.sh"
+            },
+            {
+                "title": "部署基础知识",
+                "text": "step2/text.md",
+                "verify": "step2/verify.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "alpine",
+        "expose": 8080,
+        "layout": "",
+        "skins": "",
+        "tools": "terminal",
+        "cpu": 1,
+        "memory": 1024
+    }
+}
